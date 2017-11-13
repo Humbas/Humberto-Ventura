@@ -1,0 +1,49 @@
+
+/*Global*/
+.scene .text {position: absolute;left: 135px;top: 170px;width: 450px;z-index: 99998;}
+.scene .text p {width: 270px}
+.scene .desc {width: 270px; padding: 20px 25px;border: 2px black solid;}
+
+#scene1, #scene2, #scene3, #scene4, #scene5, #scene6{height: 1125px;z-index:100}
+
+.bg, .bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7, 
+.bg8, .bg9, .bg10, .bg11, .bg12, .bg13, .bg14{display: none}
+
+/*Home*/
+#scene1 {height: 1100px; }
+#scene1 .mainbg {background: url(../images/static/bg_home.jpg) 50% 70px no-repeat }
+#scene1 .events{margin:335px 0 0 550px; width:335px}
+
+
+
+#scene2 {height:1100px}
+#scene2 .mainbg {background: url(../images/static/draw.jpg) 50% 80px no-repeat;z-index:3;}
+
+
+#scene3 .mainbg {background: url(../images/static/oporto.jpg) 50% 0px no-repeat;z-index:3}
+#scene3.scene .text{top:250px !important}
+
+
+#scene4 {height:1985px;z-index:98}
+#scene4 img{display: none}
+#scene4 .mainbg {background: url(../images/static/road.jpg) 50% 0px no-repeat; }
+#scene4 .bg1 {display:block;height:440px;width:1024px;background: url(../images/static/white_car.png) 50% 0 no-repeat fixed ;position: fixed; top: 50px; visibility:visible; z-index:999;}
+#scene4 .callout.kessler{top: 270px;left: 290px;}
+#scene4 .callout.oddfellows{top: 520px;left: 640px;}
+#scene4 .callout.mural{top: 1200px;left: 330px;}
+#scene4 .callout.texas{top: 1700px;left: 650px;}
+#scene4 .callout.enos{top: 1700px;left: 350px;}
+#scene4 .content h3{margin-top: 20px; color: #5d5d5e;}
+
+
+#scene5{height: 1090px}
+#scene5 .mainbg {background: url(../images/static/bg_ocmap.jpg) 50% 0px no-repeat}
+#scene5 .bg1{display: block ;width:100%;background: url(../images/static/dash.png) 50% 105px no-repeat}
+
+#scene6 {height: 1024px}
+#scene6 .mainbg {background: url(../images/static/bg_me.jpg) 50% 0px no-repeat;}
+#scene6 .bg1{display: block ;top: -490px}
+#scene6 .titles{top: 130px}
+#scene6 .driver{top:800px}
+#scene6 .app{top:900px;}/* CSS Document */
+

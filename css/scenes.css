@@ -1,0 +1,171 @@
+/*
+Humberto Ventura | Visual Designer - 2017
+=====================================================================================
+  Site created by Humberto Ventura
+  Artwork by Humberto Ventura
+  Front-end and back-end development by Humberto Ventura
+=====================================================================================
+*/
+
+
+article {
+width:1200px;
+margin: 0 auto;
+min-height: 100%;
+position: relative;
+z-index: 999} 
+  
+.mainbg { 
+position: absolute;
+width: 100%;
+height: 2000px;
+top: 0;
+left: 0;}
+  
+.bg, .bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7, 
+.bg8, .bg9, .bg10, .bg11, .bg12, .bg13, .bg14{
+position: absolute;
+height: 2000px;
+width: 1900px;
+top: 0;
+left: 0;}
+
+#scene1, #scene2, #scene3, #scene4, #scene5, #scene6{
+height: 2000px;
+width: 100%;
+margin: 0;
+overflow: hidden;}
+
+
+/*----------------------------------------------------
+@Home
+-----------------------------------------------------*/
+#scene1{height: 1100px;}
+#scene1 .events{margin:335px 0 0 630px; position: relative; width:465px}
+#scene1 ul{margin-left: 20px; list-style-type: disc; letter-spacing: 1px; line-height:30px;}
+#scene1 li{padding:7px 0; font-size: 19px}
+#scene1 .mainbg {height:1100px; background: url(../images/bg_home.jpg) 50% 70px no-repeat }
+#scene1 .bg2{background: url(../images/boat.png) -77% 742px no-repeat fixed; }
+#scene1 .bg9{background: url(../images/fisher.png) 89% 700px no-repeat fixed; }
+#scene1 .bg3{background: url(../images/animatedsun.gif); top:120px; left:160px;position:absolute; height:200px; width:200px;}
+#scene1 .bg6{background: url(../images/hero_me.png) -25% 460px no-repeat fixed; }
+#scene1 .bg7{background: url(../images/hero_me_shadow.png) -55% 360px  no-repeat fixed;}
+
+
+
+
+
+
+/*----------------------------------------------------
+Scene2
+-----------------------------------------------------*/
+#scene2 .mainbg {background: url(../images/draw.png) 50% -284px no-repeat fixed;}
+#scene2 .bg1{background: url(../images/sun.png) 50% 360px no-repeat fixed;}
+#scene2 .bg2{background: url(../images/cloud1.png) 50% 360px no-repeat fixed;}
+#scene2 .bg3{background: url(../images/cloud2.png) 50% 360px no-repeat fixed;}
+#scene2 .bg4{background: url(../images/cloud3.png) 50% 360px no-repeat fixed;}
+#scene2 .bg5{background: url(../images/cloud4.png) 50% 360px no-repeat fixed;}
+#scene2 .bg6{background: url(../images/bird.png) 59% 616px no-repeat fixed;}
+#scene2 .bg7{background: url(../images/plane.png) 50% 360px no-repeat fixed; z-index:1;}
+#scene2 .bg8{background: url(../images/plane_shadow.png) 50% 360px no-repeat fixed;}
+#scene2 .bg9{background: url() 50% 360px no-repeat fixed;}
+
+
+#scene2 .text h1 p{margin-bottom: 40px;/*text-shadow: 1px 1px 3px #2b8093;*/}
+#scene2 .desc{
+	background: #fef9ed;
+	color: #5d5d5e;
+	outline-color: #fef9ed;
+	border-color: #5d5d5e;
+	box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3); 
+}
+
+
+/*----------------------------------------------------
+Scene3
+-----------------------------------------------------*/
+#scene3 .mainbg {background: url(../images/porto.jpg) 50% 24px no-repeat fixed;}
+#scene3 .bg2{background: url(../images/clouds_back.png) 50% 40px no-repeat fixed; z-index:0;}
+#scene3 .bg3{background: url(../images/clouds_front.png) 50% 80px no-repeat fixed; z-index:1;}
+#scene3 .bg4, #scene3 .bg5{background: url(../images/metro.png) 50% 240px no-repeat fixed; z-index:3;}
+#scene3 .bg6{background: url(../images/cloud5.png) 50% 360px no-repeat fixed;}
+#scene3 .bg7{background: url(../images/cloud6.png) 50% 360px no-repeat fixed;}
+#scene3 .bg8{background: url(../images/cloud7.png) 50% 360px no-repeat fixed;}
+#scene3 .bg9{background: url(../images/ponte.png) 50% 24px no-repeat fixed; z-index:2;}
+#scene3 .bg10{background: url(../images/sun-smll.png) 50% 24px no-repeat fixed;}
+
+
+#scene3 .text h1 p{margin-bottom: 40px;}
+#scene3 .desc {background:#fef9ed;outline-color:#fef9ed;border-color:#5d5d5e;box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);}
+#scene3 .desc p, #scene3 .text a{color: #5d5d5e;}
+
+
+
+/*----------------------------------------------------
+ Scene4
+-----------------------------------------------------*/
+#scene4{height: 3680px;}
+#scene4 article{width:980px}
+
+#scene4 .mainbg {height:3680px; background: url(../images/road.jpg) 50% 0px no-repeat}
+#scene4 .bg1 {height:3680px;width:100%;background: url(../images/white_car.png) 50% 250px no-repeat fixed;z-index: 997}
+#scene4 .bg5 {top:1350px;height:291px;width:100%;background: url(../images/yellow_car.png) 50% 0 no-repeat;z-index: 998}
+
+#scene4 button.btn1, #scene4 button.btn1:hover, #scene4 button.btn1:active{top:2145px;right:-80px; height:32px; width: 70px;position: absolute; border:0; padding: 0;cursor: pointer; background: transparent }
+#scene4 button.btn1:hover, #scene4 button.btn1:active{background-position: -67px 0}
+#scene4 .content{margin-top: -125px; width: 555px; padding-top:20px; background:#fef9ed;color: #5d5d5e;box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);}
+#scene4 .content.kessler, #scene4 .content.oddfellows, #scene4 .content.mural, #scene4 .content.texas, #scene4 .content.enos{display: none; }
+#scene4 .content.oddfellows, #scene4 .content.texas{-webkit-transform-origin:100% 0; -moz-transform-origin:100% 0; margin-left: -575px}
+
+#scene4 .callout {width:0}
+#scene4 .callout.kessler{top: 500px;left: 50px;}
+#scene4 .callout.oddfellows{top: 750px;left: 790px;}
+#scene4 .callout.mural{top: 2000px;left: 190px;}
+#scene4 .callout.texas{top: 3000px;left: 780px;}
+#scene4 .callout.enos{top: 3050px;left: 180px;}
+
+
+#scene4 .content h3,
+#scene4 .content p.para{width:550px; margin:5px 5px 18px; }
+#scene4 .btn-oc{
+	background: #9da8b1;
+	height: 33px;
+	width: 95px;
+	display: block;
+	cursor: pointer;
+	margin: 5px
+}
+#scene4 .btn-oc:hover{background: #94978f}
+#scene4 .btn-oc p{padding:5px 0; text-align: center; }
+
+#scene4 .text h1 p{margin-bottom: 40px;}
+#scene4 .desc {background:#fef9ed;outline-color:#fef9ed;border-color:#5d5d5e;box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);}
+#scene4 .desc p, #scene3 .text a{color: #5d5d5e;}
+
+
+
+/*----------------------------------------------------
+@Me Scene
+-----------------------------------------------------*/
+#scene6{height: 1200px;}
+
+#scene6 .mainbg {background: url(../images/bg_me.jpg) 50% 24px no-repeat fixed;}
+#scene6 .bg1{background: url(../images/logomain.png) 50% 50% no-repeat;position: absolute; margin:0 auto;top: -420px;width:100%; }
+
+#scene6 .titles{width:100%; height: 300px; margin: 0 auto; position: absolute;top: 150px;left: 0;}
+#scene6 .titles ul{width:750px;margin: 0 auto;}
+#scene6 .titles .quotes li p{font-family: "Cabin"; font-weight:100; text-transform:uppercase; font-size: 42px; color: white; text-align: center; line-height: 50px}
+
+#scene6 .driver {position: absolute; width: 100%; top: 850px; text-align: center}
+#scene6 .app{position: absolute;width:100%;margin:0 auto; top:950px; z-index: 999}
+#scene6 .btn-driver{
+	background: #db8f2c;
+	height: 50px;
+	width: 250px;
+	cursor: pointer;
+	margin: 0 auto;
+	display: block;
+	position: relative
+}
+#scene6 .btn-driver p{text-align: center; padding: 15px 0 18px; font-size: 24px}
+#scene6 .btn-driver:hover{opacity:0.8;filter:alpha(opacity=80); /* For IE8 and earlier */}
