@@ -1,9 +1,9 @@
 /*
-Humberto Ventura | Visual Designer - 2017
 =====================================================================================
   Site created by Humberto Ventura
   Artwork by Humberto Ventura
   Front-end and back-end development by Humberto Ventura
+  www.humbertoventura.com
 =====================================================================================
 */
 
@@ -60,7 +60,7 @@ overflow: hidden;}
 Scene2
 -----------------------------------------------------*/
 #scene2 .mainbg {background: url(../images/draw.png) 50% -284px no-repeat fixed;}
-#scene2 .bg1{background: url(../images/sun.png) 50% 360px no-repeat fixed;}
+#scene2 .bg1{background: url(../images/sun.png) 50% 360px no-repeat relative;}
 #scene2 .bg2{background: url(../images/cloud1.png) 50% 360px no-repeat fixed;}
 #scene2 .bg3{background: url(../images/cloud2.png) 50% 360px no-repeat fixed;}
 #scene2 .bg4{background: url(../images/cloud3.png) 50% 360px no-repeat fixed;}
