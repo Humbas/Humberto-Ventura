@@ -1,11 +1,14 @@
 
-# My Personal Website
-This app is a simple responsive website coded in CSS and HTML 
+# My Personal Journey
+This site is a visual narrative that describes part of my academic and professional achievemts 
+Also shows some of my passions
 
-It corresponds to one of the Treehouse Front End developer exercises
+Responsive
+
+
 
 Technologies used:
-HTML,CSS
+HTML,CSS,Javascriot
 
 
 To make it work simply place index.html in a web browser
