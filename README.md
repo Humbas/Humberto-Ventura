@@ -3,7 +3,7 @@
 This site is a visual narrative that describes part of my academic and professional achievemts 
 Also shows some of my passions
 
-Responsive
+Adapted for different screen sizes
 
 
 
